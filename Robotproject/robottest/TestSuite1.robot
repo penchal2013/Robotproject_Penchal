@@ -42,7 +42,11 @@ MySampleLoginTest
     Close Browser
     Log             TestCompleted
     Log             This test was executed by %{username} on %{os}
-    
+
+VerifytheTitle
+    [Tags]    Regresssion
+    Log       Applicatin Verified the title
+      
 *** Variables ***
 #Scalar 
 ${URL}    https://opensource-demo.orangehrmlive.com/
